@@ -52,3 +52,24 @@
      −  파일의 Collections들은 Directories 안에 그룹화됨
      −  directory 그 자체로 파일임 (파일 시스템은 계층구조를 가짐)
    #### Absolute Path VS Relative Path
+     − 둘다 Tree 구조를 따름  
+     - 절대경로(Absolute Path)는 System root로부터 시작해서 파일이 어디에 있는지 나타냄.  ex) /proc/cpuinfo
+     - 상대경로(Relative Path)는 현재 directory로부터 파일 시스템을 나타냄. ex) .././ff -> 상위폴더에 있는 ff 파일을 나타냄.
+     
+ ### * Linux Commands
+   #### ls
+     − directory contents를 list함.
+     - ls -l 도 있음. 접근권한, 소유자, 파일 크기, 저장 날짜 등을 알 수 있음.
+   #### mkdir, rmdir
+     - directory를 만들거나 삭제함.
+   #### cd
+     - 현재 보고 있는 directory를 변경함
+   #### cp
+     - 파일을 다른 파일이나 디렉토리로 복사함
+   #### mv
+     - 파일을 다른 디렉토리로 옮김
+     - 파일의 이름을 바꿈
+   #### rm
+     - 파일을 삭제함 (rm -r /home/test)를 하면 recursive하게 내용을 다 지울 수 있음.
+   #### pwd
+     - 현재 디렉토리의 경로를 출력함 (절대경로로 출력함)
