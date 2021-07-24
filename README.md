@@ -78,3 +78,13 @@
      
  ### * About vi
      - Text editor이자 standard Unix editor임
+     - visual의 약자
+     - clone들이 많음. vim, nvi, elvis, macvim 등.
+     - Command Mode, Insert Mode 두개가 있음.
+ ### * gcc
+     - 컴파일러. c언어를 컴파일 해줌. gcc -o makefile targetfile.c
+     
+#
+#
+#
+ ### * who에 대해 알아보자
