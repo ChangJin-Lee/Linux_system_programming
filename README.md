@@ -73,3 +73,8 @@
      - 파일을 삭제함 (rm -r /home/test)를 하면 recursive하게 내용을 다 지울 수 있음.
    #### pwd
      - 현재 디렉토리의 경로를 출력함 (절대경로로 출력함)
+   #### man 
+     - 메뉴얼 페이지. ex) man ls 하면 ls에 대한 내용을 읽어볼 수 있음.
+     
+ ### * About vi
+     - Text editor이자 standard Unix editor임
