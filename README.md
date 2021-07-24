@@ -47,5 +47,8 @@
       -  - Linus Tovald가 개발하고 Richard Stallman이 GNU를 만듬.
       -  - Unix와 유사한 점이 많음. code base는 original Unix code와는 다름.
       
- ### The File System
- 
+   #### The File System
+     −  파일은 기본적으로 바이트의 연속된 값임
+     −  파일의 Collections들은 Directories 안에 그룹화됨
+     −  directory 그 자체로 파일임 (파일 시스템은 계층구조를 가짐)
+   #### Absolute Path VS Relative Path
