@@ -88,3 +88,4 @@
 #
 #
  ### * who에 대해 알아보자
+   #### /var/run/utmp에서 사용가능. man who 명령어로 DESCRIPTION 항목에서 경로를 확인해보자. 우린 ubuntu 20.04 버전에서 확인함.
