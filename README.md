@@ -93,3 +93,4 @@
    #### utmp에 대해 알아야함. man -k utmp 를 사용해보자.
    #### man -k file | grep read 
    #### man 2 read를 사용해 read에 대해 알아보자
+   #### unix와의 차이점은?
