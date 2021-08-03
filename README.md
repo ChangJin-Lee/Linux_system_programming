@@ -96,3 +96,10 @@
    #### unix와의 차이점은?
    #### UTMP_FILE=/var/run/utmp
    ##### who.c 파일을 실행해보자 
+   #### 3개의 c파일을 같이 gcc하려고 한다면?
+   #### gcc -c file.c 
+   #### gcc -c file1.c
+   #### gcc -c file2.c
+   #### - > 결과 file.o file1.o file2.o 가 만들어짐
+   #### gcc -o file file.o file1.o file2.o 
+   #### 목적파일을 잘 써야함!
