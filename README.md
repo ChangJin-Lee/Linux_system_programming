@@ -95,4 +95,4 @@
    #### man 2 read를 사용해 read에 대해 알아보자
    #### unix와의 차이점은?
    #### UTMP_FILE=/var/run/utmp
-   ##### who.c 파일로 
+   ##### who.c 파일을 실행해보자 
