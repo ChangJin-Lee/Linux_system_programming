@@ -103,3 +103,8 @@
    #### - > 결과 file.o file1.o file2.o 가 만들어짐
        - gcc -o file file.o file1.o file2.o 
        - 목적파일을 잘 써야함!
+       
+ ### * ls에 대해 알아보자
+ #### 현재 디렉토리에 있는 파일의 이름을 리스트해줌.
+ #### ls -l ? permission, owner, group, file size, modified date/time, directory or file name을 보여줌
+ #### Q) ls /tt ?    \\\    ls -l tt ?     \\\  ls -l ../tt?       \\\   ls *.c?
